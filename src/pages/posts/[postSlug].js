@@ -72,7 +72,8 @@ export default function Post({ post, site }) {
     return (
         <p key={index}>
         {answerTitle}
-            {correct}
+          <br/>
+          {correct ? "yep" : "no"}
         </p>
     );
 })
